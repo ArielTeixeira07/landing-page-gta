@@ -23,3 +23,11 @@ body {
     gap: 30px;
 }
 
+.cabecalho .menu li a {
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'chalet';
+}
+
