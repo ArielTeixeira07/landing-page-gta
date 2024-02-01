@@ -78,6 +78,10 @@ body {
 .home .informacoes .lista-de-jogos {
     display: flex;
     gap: 32px;
-    
+}
+
+.home .informacoes .titulo {
+    font-family: 'ChaletComprime';
+    font-size: 55px;
 }
 
