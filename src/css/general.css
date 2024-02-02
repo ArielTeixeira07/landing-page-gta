@@ -85,3 +85,9 @@ body {
     font-size: 55px;
 }
 
+.home .informacoes .texto {
+    font-family: 'Charlet';
+    font-size: 18px;
+    line-height: 1.6;
+}
+
