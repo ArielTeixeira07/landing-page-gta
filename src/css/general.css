@@ -166,4 +166,11 @@ body {
     line-height: 1.6;
 }
 
+.compre-ja .informacoes .plataformas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
 
