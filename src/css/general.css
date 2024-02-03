@@ -165,8 +165,7 @@ body {
 
 .compre-ja .informacoes .plataformas {
     display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
+    gap: 12px;
     justify-content: center;
 }
 
