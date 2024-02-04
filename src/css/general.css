@@ -129,7 +129,7 @@ body {
 .compre-ja .titulo {
     font-family: 'ChaletComprime';
     font-size: 50px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-bottom: 50px;
 }
 
@@ -165,7 +165,8 @@ body {
 
 .compre-ja .informacoes .plataformas {
     display: flex;
-    gap: 12px;
+    flex-wrap: wrap;
+    gap: 32px;
     justify-content: center;
 }
 
@@ -174,7 +175,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
     display: none;
     opacity: 0;
 }
