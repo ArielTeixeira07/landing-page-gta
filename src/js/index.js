@@ -23,3 +23,9 @@ const botão = document.querySelector(".btn-plataforma");
 
 // Passo 2 - pegar o elemento do conteudo que precisa ser mostrado
 const elementoPlataformas = document.querySelector(".btn-plataforma .plataformas");
+
+// Passo 3 - pegar o clique do usuario no js
+botão.addEventListener("click", () => {
+    // Passo 4 - quando o usuário clicar, adicionar a classe ativo na listagem de plataformas dentro do botão pra que o conteúdo apareça
+    elementoPlataformas.classList.add("ativo")
+});
