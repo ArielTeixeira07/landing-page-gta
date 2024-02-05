@@ -21,3 +21,5 @@ Objetivo 2 - caso a lista de botões de plataformas já esteja aparecendo e o us
 // Passo 1 - pegar o botão de seleção de plataformas no JS pra poder verificar quando o usuário clicar em cima dele
 const botão = document.querySelector(".btn-plataforma");
 
+// Passo 2 - pegar o elemento do conteudo que precisa ser mostrado
+const elementoPlataformas = document.querySelector(".btn-plataforma .plataformas");
