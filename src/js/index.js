@@ -19,3 +19,5 @@ Objetivo 2 - caso a lista de botões de plataformas já esteja aparecendo e o us
 // Objetivo 1 - quando o usuário clicar no botão de seleção de plataformas deve abrir uma caixa com os botões de seleção de plataforma
 
 // Passo 1 - pegar o botão de seleção de plataformas no JS pra poder verificar quando o usuário clicar em cima dele
+const botão = document.querySelector(".btn-plataforma");
+
